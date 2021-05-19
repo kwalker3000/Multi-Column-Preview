@@ -1,4 +1,5 @@
 html {
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 62.5%;
     margin: 0;
     padding: 0;
@@ -18,6 +19,7 @@ img {
 }
 
 span {
+    font-family: 'Big Shoulders Display', cursive;
     font-size: 4rem;
     font-weight: bold;
 }
@@ -27,16 +29,17 @@ p, .img-box, .btn {
     font-size: 1.5rem;
     line-height: 2.5rem;
     border: .5px solid black;
-    align-text: right;
+    text-align: left;
 
 }
 
-.info {
+/* may not need to style differently */
+/* .info {
     width: 200px;
     height: 125px;
-    position: relative;
+    position: relative;  
     right: 15.5px;
-}
+} */
 
 /* might use as baseline for desktop */
 .wrapper {
@@ -73,7 +76,9 @@ p, .img-box, .btn {
     position: relative;
     top: -10px;
     overflow: hidden;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .suv:hover {
@@ -110,12 +115,13 @@ p, .img-box, .btn {
 }
 
 .box-2 {
+    border: .5px solid black;
     display: flex;
-    justify-content: center;
+    /* justify-content: space-between; */
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    margin-top: 5%;
+    /* align-content: space-between; */
+    margin-top: 2%;
 }
 
 /* .popout {
@@ -134,8 +140,18 @@ p, .img-box, .btn {
 } */
 
 button {
+    border: 2px solid white;
+    background-color: white;
+    color: #006971;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.5rem;
     width: 146px;
     height: 48px;
     border-radius: 25px;
     align-self: flex-start;
+}
+
+button:hover {
+    color: white;
+    background-color: #006971;
 }
