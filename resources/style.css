@@ -1,0 +1,141 @@
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #c5dbf2;
+    /*   background: #fbeeca;
+    background: #fbf5fe; */
+}
+
+.wrapper {
+}
+
+img {
+    width: 64px;
+    height: 40px;
+    align-self: flex-start;
+}
+
+span {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+p, .img-box, .btn {
+    width: 231px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    border: .5px solid black;
+    align-text: right;
+
+}
+
+.info {
+    width: 200px;
+    height: 125px;
+    position: relative;
+    right: 15.5px;
+}
+
+/* might use as baseline for desktop */
+.wrapper {
+    margin-top: 25vh
+}
+
+
+.container {
+    width: 100vw;
+    height: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.vehicle {
+    border: 1px solid black;
+    width: 327px;
+    height: 442px;
+    border-radius: 8px;
+    /*   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+}
+
+.sedan {
+    background: #E28625;
+    border: 1px solid #E28625;
+
+}
+
+.suv {
+    background: #006971;
+    border: 1px solid #006971;
+    position: relative;
+    top: -10px;
+    overflow: hidden;
+
+}
+
+.suv:hover {
+    box-shadow:
+        0 0 10px 7px #000,
+        0 0 30px 15px #fff,  /* inner white */
+        0 0 50px 30px #f0f, /* middle magenta */
+        0 0 70px 45px #0ff; /* outer cyan */
+}
+
+.suv:hover {
+    z-index: 2;
+    box-shadow:
+        0 0 10px 7px #000,
+        0 0 15px 7.5px #fff,  /* inner white */
+        0 0 25px 15px #f0f, /* middle magenta */
+        0 0 35px 22.5px #0ff; /* outer cyan */
+}
+
+.suv:hover {
+    z-index: 2;
+    box-shadow:
+        0 0 3.3px 2.3px #000,
+        0 0 5px 2.5px #fff,  /* inner white */
+        0 0 8.3px 5px #f0f, /* middle magenta */
+        0 0 11.6px 7.5px #0ff; /* outer cyan */
+}
+
+.luxury {
+    background: #004140;
+    border: 1px solid #004140;
+    position: relative;
+    top: -20px;
+}
+
+.box-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 5%;
+}
+
+/* .popout {
+    animation: popout 1s ease;
+    -webkit-animation: popout 1s ease;
+}
+@keyframes popout {
+    from{transform:scale(0)}
+    80%{transform:scale(1.2); z-index: 1;}
+    to{transform:scale(1)}
+} */
+/* @-webkit-keyframes popout {
+    from{-webkit-transform:scale(0)}
+    80%{-webkit-transform:scale(1.2)}
+    to{-webkit-transform:scale(1)}
+} */
+
+button {
+    width: 146px;
+    height: 48px;
+    border-radius: 25px;
+    align-self: flex-start;
+}
