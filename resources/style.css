@@ -11,27 +11,40 @@ html {
 
 .wrapper {
 }
+.img-box {
+    
+}
 
 img {
     width: 64px;
     height: 40px;
-    align-self: flex-start;
+    /* align-self: flex-end; */
 }
 
 span {
+    display: block;
     font-family: 'Big Shoulders Display', cursive;
     font-size: 4rem;
     font-weight: bold;
 }
 
 p, .img-box, .btn {
+    display: flex;
+    margin: 0;
     width: 231px;
     font-size: 1.5rem;
     line-height: 2.5rem;
-    border: .5px solid black;
+    /* border: .5px solid black; */
     text-align: left;
 
 }
+
+.btn {
+    /* position: relative; */
+    margin-top: -1em;
+}
+
+
 
 /* may not need to style differently */
 /* .info {
@@ -79,6 +92,7 @@ p, .img-box, .btn {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* align-content: space-around; */
 }
 
 .suv:hover {
@@ -115,13 +129,15 @@ p, .img-box, .btn {
 }
 
 .box-2 {
-    border: .5px solid black;
+    /* width: 100%; */
+    height: 78%;
+    /* border: 1.5px solid black; */
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    /* align-content: space-between; */
-    margin-top: 2%;
+    /* align-content: center; */
+    /* margin-top: 2%; */
 }
 
 /* .popout {
