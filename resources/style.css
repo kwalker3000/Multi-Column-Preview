@@ -5,24 +5,12 @@ html {
     padding: 0;
     box-sizing: border-box;
     background: #c5dbf2;
-    /* color: white; */
-    /*   background: #fbeeca;
-    background: #fbf5fe; */
-}
-
-.wrapper {
-}
-.img-box {
-    
 }
 
 img {
     width: 64px;
     height: 40px;
-    /* align-self: flex-end; */
 }
-
-
 
 p, .img-box, .btn {
     display: flex;
@@ -30,9 +18,6 @@ p, .img-box, .btn {
     width: 231px;
     font-size: 1.5rem;
     line-height: 2.5rem;
-    /* border: .5px solid black; */
-    /* text-align: left; */
-
 }
 
 @media screen and (min-width: 650px) {
@@ -54,7 +39,6 @@ span {
 }
 
 .btn {
-    /* position: relative; */
     margin-top: -1em;
 }
 
@@ -64,15 +48,6 @@ span {
         margin-bottom: -.25em
     }
 }
-
-
-/* may not need to style differently */
-/* .info {
-    width: 200px;
-    height: 125px;
-    position: relative;  
-    right: 15.5px;
-} */
 
 /* might use as baseline for desktop */
 .wrapper {
@@ -87,18 +62,11 @@ span {
     justify-content: center;
 }
 
-/* .behind-cards {
-    width: 327px;
-} */
-
 .vehicle {
-    /* border: 1px solid black; */
     width: 327px;
     height: 442px;
     border-radius: 8px;
-    /*   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
 }
-
 
 @media screen and (min-width: 650px) {
     .vehicle {
@@ -117,11 +85,7 @@ span {
 .sedan {
     background: #E28625;
     border: 1px solid #E28625;
-    /* padding-bottom: 200%;
-    margin-bottom: -200%; */
 }
-
-
 
 @media screen and (min-width: 650px) {
     .sedan {
@@ -144,41 +108,6 @@ span {
     }
 }
 
-/* @media screen and (max-device-width: 645px) and (orientation: portrait) {
-    .sedan {
-        padding: 0 0 200% 0;
-        margin: 0 0 -200% 0;
-    }
-} */
-
-
-
-/* @media screen and (max-device-width: 645px) and (orientation: portrait) {
-    .sedan {
-        padding-bottom: 25vh;
-        margin-bottom: -25vh;
-    }
-}
-
-@media screen and (min-device-width: 650px) {
-    .sedan {
-        padding: 0 25vh 0 0;
-        margin: 0 -25vh 0 0;
-    }
-}
-
-@media screen and (min-device-width: 930px) {
-    .sedan {
-        padding: 0 40vh 0 0;
-        margin: 0 -40vh 0 0;
-    }
-} */
-
-
-
-
-
-
 .sedan button {
     color: #E28625;
 }
@@ -191,13 +120,6 @@ span {
     background: #006971;
     border: 1px solid #006971;
     z-index: 5;
-    /* position: relative;
-    top: -10px; */
-    /* overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* align-content: space-around; */
 }
 
 .suv button {
@@ -212,8 +134,6 @@ span {
     background: #004140;
     border: 1px solid #004140;
     border-radius: 0 0 8px 8px;
-    /* position: relative;
-    top: -20px; */
 }
 
 @media screen and (min-width: 930px) {
@@ -234,60 +154,13 @@ button:hover {
     color: white;
 }
 
-.suv:hover {
-    box-shadow:
-        0 0 10px 7px #000,
-        0 0 30px 15px #fff,  /* inner white */
-        0 0 50px 30px #f0f, /* middle magenta */
-        0 0 70px 45px #0ff; /* outer cyan */
-}
-
-.suv:hover {
-    z-index: 2;
-    box-shadow:
-        0 0 10px 7px #000,
-        0 0 15px 7.5px #fff,  /* inner white */
-        0 0 25px 15px #f0f, /* middle magenta */
-        0 0 35px 22.5px #0ff; /* outer cyan */
-}
-
-.suv:hover {
-    z-index: 2;
-    box-shadow:
-        0 0 3.3px 2.3px #000,
-        0 0 5px 2.5px #fff,  /* inner white */
-        0 0 8.3px 5px #f0f, /* middle magenta */
-        0 0 11.6px 7.5px #0ff; /* outer cyan */
-}
-
-
-
 .box-1, .box-2, .box-3 {
-    /* width: 100%; */
     height: 78%;
-    /* border: 1.5px solid black; */
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    /* align-content: center; */
-    /* margin-top: 2%; */
 }
-
-/* .popout {
-    animation: popout 1s ease;
-    -webkit-animation: popout 1s ease;
-}
-@keyframes popout {
-    from{transform:scale(0)}
-    80%{transform:scale(1.2); z-index: 1;}
-    to{transform:scale(1)}
-} */
-/* @-webkit-keyframes popout {
-    from{-webkit-transform:scale(0)}
-    80%{-webkit-transform:scale(1.2)}
-    to{-webkit-transform:scale(1)}
-} */
 
 button {
     border: 2px solid white;
